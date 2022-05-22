@@ -1,0 +1,75 @@
+*{
+    background-color: #E5E5E5;
+}
+
+#boton-principal{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    margin: 20px;
+    background-color: #0A3871;
+    color: white;
+    width: 317px;
+    height: 114px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    padding: 24px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 45px;
+}
+
+#boton-secundario{
+    left: 490px;
+    top: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    height: 67px;
+    width: 280px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    padding-left: 74px;
+    padding-top: 25px;
+}
+
+#boton-principal a{
+   text-decoration: none;
+   color: white;
+   background-color: #0A3871;
+}
+
+.boton-guarda{
+    padding: 0px;
+    width: 250px;
+    height: 50px;
+    border-radius: 24px ;
+    border: 1px #0A3871 solid;
+    color: #0A3871;
+    margin-top: 20px;
+    margin-left: 265px;
+}
+
+#boton-empezar{
+    background-color: #0A3871;
+    color: white;
+}
+
+#palabra-ingresada{
+    margin-left: 200px;
+    height: 400px;
+    width: 900px;
+    background-color: #0A3871;
+}
+
+h2{
+    color: #0A3871;
+    font-size: 32px;
+    text-align: center;
+}
